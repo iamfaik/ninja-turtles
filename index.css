@@ -1,0 +1,117 @@
+body{
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/05/Desktop-Download-Tmnt-Wallpapers-HD.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.your-power,.your-health,.your-choice{
+    color: goldenrod;
+    font-family: 'Dancing Script', cursive;
+    margin-right: 20px;
+}
+.your-choose{
+    color: goldenrod;
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Rubik Microbe', cursive;
+}
+.enemy-choose{
+    color: goldenrod;
+    margin-top: 100px;
+    margin-left: 300px;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Rubik Microbe', cursive;
+}
+.enemy-text{
+    color: goldenrod;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Rubik Microbe', cursive;
+}
+
+.col-3{
+    margin-top: 50px;
+    transition: all 2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.col-3:hover{
+    transform: scale(1.2);
+}
+.fight{
+    width: 200px;
+    height: 50px;
+    margin: 10% 0 0 42%;
+    background-color: transparent;
+    border: 5px dotted goldenrod;
+    color: goldenrod;
+    border-radius: 15px;
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Rubik Microbe', cursive;
+    transition: all 2s ease-in ;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.fight:hover{
+    transform:scale(1.5);
+}
+.enemies{
+    display: flex;
+    justify-content: space-between;
+}
+.sewage{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/wp1991420.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: none;
+}
+.sewage>.battle{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hero,.enemy{
+    margin-top: 100px;
+}
+.battle-hero-power,.battle-hero-health,.battle-enemy-power,.battle-enemy-health,.battle-hero-name,.battle-enemy-name{
+    color: goldenrod;
+    font-family: 'Dancing Script', cursive;
+    margin-right: 30px;
+
+}
+.attack{
+    margin-top: 200px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 5px dashed goldenrod;
+    background-color: transparent;
+    color: goldenrod;
+    transition: all 2s ease-in;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.attack:hover{
+    transform: scale(1.5);
+}
+
+.health {
+    background-color: red;
+    width: 200px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.layout {
+    background-color: green;
+    width: 100%;
+    height: inherit;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
